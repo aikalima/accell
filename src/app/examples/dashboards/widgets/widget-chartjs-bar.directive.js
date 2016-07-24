@@ -45,7 +45,7 @@
                 }]
             });
 
-            $scope.labels = ['Health', 'IoF', 'Design', 'Robots'];
+            $scope.labels = ['Health', 'IoT', 'Design', 'Robots'];
             $scope.series = ['This Week', 'Last week'];
 
             $scope.data = [
