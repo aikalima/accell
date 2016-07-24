@@ -50,7 +50,7 @@
 
             $scope.lineChart = {
                 labels: ['January', 'February', 'March', 'April', 'May'],
-                series: ['Pageviews', 'Visits', 'Sign ups'],
+                series: ['Market Traction', 'Product Fit', 'Team'],
                 options: {
                     datasetFill: false,
                     responsive: true

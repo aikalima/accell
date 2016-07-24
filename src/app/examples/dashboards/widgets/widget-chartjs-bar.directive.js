@@ -45,7 +45,7 @@
                 }]
             });
 
-            $scope.labels = ['Facebook', 'Twitter', 'Google+', 'Others'];
+            $scope.labels = ['Health', 'IoF', 'Design', 'Robots'];
             $scope.series = ['This Week', 'Last week'];
 
             $scope.data = [

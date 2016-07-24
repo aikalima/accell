@@ -4,11 +4,14 @@
     </md-button>
 
     <h2 hide-xs flex >
-        <span ><a href='/#/home'>The Marketplace for Solar</a></span>
+        <div layout='row'>
+        <img class='logo' src="/assets/images/logo.svg">
+        <span class='headline'><a href='/#/home'>The Accelerator Platform </a></span>
         <!-- <span ng-repeat="crumb in vm.breadcrumbs.crumbs">
             <span translate>{{crumb.name}}</span>
             <md-icon md-font-icon="zmdi zmdi-chevron-right" ng-if="!$last"></md-icon>
         </span> -->
+        </div>
     </h2>
 
 <!--     <md-button class="md-icon-button toolbar-button" ng-click="vm.toggleFullScreen()" aria-label="toggle fullscreen">
@@ -39,7 +42,7 @@
     <md-menu>
         <md-button aria-label="Open user menu" ng-click="$mdOpenMenu()" aria-label="side navigation">
             <img class="toolbar-user-avatar" ng-src="{{vm.currentUser.avatar}}">
-            <!-- {{vm.currentUser.displayName}} --> Aric
+            <!-- {{vm.currentUser.displayName}} --> Fred
         </md-button>
         <md-menu-content width="4">
             <md-menu-item>

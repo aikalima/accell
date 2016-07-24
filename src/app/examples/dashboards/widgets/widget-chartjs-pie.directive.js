@@ -46,7 +46,7 @@
             });
 
             $scope.pieChart = {
-                labels: ['Facebook', 'Twitter', 'Google+', 'Others'],
+                labels: ['Health', 'IoF', 'Design', 'Robots'],
                 data: [300, 500, 100, 50]
             };
         }

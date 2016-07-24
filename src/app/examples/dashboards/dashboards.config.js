@@ -79,37 +79,25 @@
         });
 
         triMenuProvider.addMenu({
-            name: 'Dashboards',
+            name: 'Home',
             icon: 'zmdi zmdi-home',
             type: 'dropdown',
-            priority: 1.1,
+            priority: 0.1,
             children: [{
-                name: 'Analytics',
+                name: 'Overview',
                 state: 'triangular.dashboard-analytics',
                 type: 'link'
             },{
-                name: 'General',
+                name: 'Events',
                 state: 'triangular.dashboard-general',
                 type: 'link'
             },{
-                name: 'Sales',
+                name: 'Trending',
                 state: 'triangular.dashboard-sales',
-                type: 'link'
-            },{
-                name: 'Server',
-                state: 'triangular.dashboard-server',
                 type: 'link'
             },{
                 name: 'Social',
                 state: 'triangular.dashboard-social',
-                type: 'link'
-            },{
-                name: 'Widgets',
-                state: 'triangular.dashboard-widgets',
-                type: 'link'
-            },{
-                name: 'Draggable',
-                state: 'triangular.dashboard-draggable',
                 type: 'link'
             }]
         });

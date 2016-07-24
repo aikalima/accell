@@ -1,3 +1,14 @@
+.logo {
+    max-height: 56px;
+    min-height: 56px;
+}
+
+.headline {
+	color: #737373;
+	padding-top: 14px;
+	padding-left: 14px;
+}
+
 .triangular-toolbar {
     &.ng-enter {
         transition: .5s;

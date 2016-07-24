@@ -52,28 +52,29 @@
             }
         });
 
-        triMenuProvider.addMenu({
-            name: 'Permissions',
-            icon: 'zmdi zmdi-lock',
-            type: 'dropdown',
-            priority: 4.1,
-            children: [{
-                name: 'Permissions',
-                state: 'triangular.permission',
-                type: 'link'
-            },{
-                name: 'Define Permissions & Roles',
-                state: 'triangular.permission-define',
-                type: 'link'
-            },{
-                name: 'Routes',
-                state: 'triangular.permission-routes',
-                type: 'link'
-            },{
-                name: 'Views',
-                state: 'triangular.permission-views',
-                type: 'link'
-            }]
-        });
+        // triMenuProvider.addMenu({
+        //     name: 'Permissions',
+        //     icon: 'zmdi zmdi-lock',
+        //     type: 'dropdown',
+        //     priority: 4.1,
+        //     children: [{
+        //         name: 'Permissions',
+        //         state: 'triangular.permission',
+        //         type: 'link'
+        //     },{
+        //         name: 'Define Permissions & Roles',
+        //         state: 'triangular.permission-define',
+        //         type: 'link'
+        //     }
+        //     ,{
+        //         name: 'Routes',
+        //         state: 'triangular.permission-routes',
+        //         type: 'link'
+        //     },{
+        //         name: 'Views',
+        //         state: 'triangular.permission-views',
+        //         type: 'link'
+        //     }]
+        // });
     }
 })();

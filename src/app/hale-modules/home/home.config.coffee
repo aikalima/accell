@@ -8,108 +8,79 @@ do ->
       templateUrl: 'app/hale-modules/home/home.tmpl.html'
       controller: 'HomeController'
       controllerAs: 'home'
-      data: 
-        layout: 
-          contentClass: 'full-image-background mb-bg-09'
+      # data: 
+      #   layout: 
+      #     contentClass: 'full-image-background mb-bg-09'
+        
     triMenuProvider.addMenu
-      name: 'Customers'
+      name: 'Accelerator'
       icon: 'zmdi zmdi-face'
       type: 'dropdown'
-      priority: 0.1
+      priority: 0.3
       children: [
         {
-          name: 'System Info'
+          name: 'Dashboard'
           state: 'triangular.home'
           type: 'link'
         }
         {
-          name: 'Project Status'
+          name: 'Startups'
           state: 'triangular.home'
           type: 'link'
         }
         {
-          name: 'Documents'
+          name: 'Events'
           state: 'triangular.home'
           type: 'link'
         }
         {
-          name: 'Support'
+          name: 'Radars'
           state: 'triangular.home'
           type: 'link'
         }
       ]
     triMenuProvider.addMenu
-      name: 'Contractors'
+      name: 'Startups'
       icon: 'fa fa-tree'
       type: 'dropdown'
-      priority: 0.2
+      priority: 0.4
       children: [ 
         {
-          name: 'Company Info'
+          name: 'Dashboard'
           state: 'triangular.home'
           type: 'link'
         } 
         {
-          name: 'Pricing'
+          name: 'Radars'
           state: 'triangular.home'
           type: 'link'
         } 
         {
-          name: 'Accounts'
+          name: 'Profile'
           state: 'triangular.home'
           type: 'link'
         }
-        {
-          name: 'Reporting'
-          state: 'triangular.home'
-          type: 'link'
-        }
-        {
-          name: 'Support'
-          state: 'triangular.home'
-          type: 'link'
-        }   
     ]
 
-
     triMenuProvider.addMenu
-      name: 'Utilities'
+      name: 'Investors'
       icon: 'zmdi zmdi-flower-alt zmdi-hc-2x'
       type: 'dropdown'
-      priority: 0.3
+      priority: 0.5
       children: [ 
         {
-          name: 'Alerts'
+          name: 'Deal Flow'
           state: 'triangular.home'
           type: 'link'
         }
         {
-          name: 'PV Customers'
+          name: 'Investments'
           state: 'triangular.home'
           type: 'link'
         } 
+        
         {
-          name: 'NEM List'
-          state: 'triangular.home'
-          type: 'link'
-        } 
-        {
-          name: 'PV Heat Map'
-          state: 'triangular.home'
-          type: 'link'
-        } 
-        {
-          name: 'Reporting'
-          state: 'triangular.home'
-          type: 'link'
-        } 
-        {
-          name: 'Settings'
-          state: 'triangular.home'
-          type: 'link'
-        } 
-        {
-          name: 'Support'
+          name: 'Profile'
           state: 'triangular.home'
           type: 'link'
         } 

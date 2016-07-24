@@ -15,8 +15,7 @@
     triLayoutProvider.setDefaultOption('showToolbar', true);
     triLayoutProvider.setDefaultOption('toolbarSize', 'default');
     triLayoutProvider.setDefaultOption('toolbarShrink', true);
-    triLayoutProvider.setDefaultOption('toolbarClass', 'full-image-background mb-bg-07');
-    triLayoutProvider.setDefaultOption('contentClass', 'full-image-background mb-bg-09');
+    triLayoutProvider.setDefaultOption('toolbarClass', 'full-image-background mb-bg-fb-05');
     triLayoutProvider.setDefaultOption('sideMenuSize', 'hidden');
     triLayoutProvider.setDefaultOption('footer', false);
   };
